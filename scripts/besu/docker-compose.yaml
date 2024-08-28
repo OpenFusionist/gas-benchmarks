@@ -39,9 +39,9 @@ services:
     - --rpc-http-api=${EC_ENABLED_MODULES}
     - --rpc-http-cors-origins=*
     - --host-whitelist=*
-    # - --bonsai-limit-trie-logs-enabled=false
-    # - --Xbonsai-parallel-tx-processing-enabled=true
-    # - --Xplugin-rocksdb-high-spec-enabled=true
+    - --bonsai-limit-trie-logs-enabled=false
+    - --Xbonsai-parallel-tx-processing-enabled=true
+    - --Xplugin-rocksdb-high-spec-enabled=true
     logging:
       driver: json-file
       options:
