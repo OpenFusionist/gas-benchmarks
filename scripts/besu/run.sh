@@ -4,6 +4,8 @@ cd scripts/besu
 cp besu.json /tmp/besu.json
 cp jwtsecret /tmp/jwtsecret
 
+cat docker-compose.yaml
+
 docker compose up -d
 
 sleep 15
