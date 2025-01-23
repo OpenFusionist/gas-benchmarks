@@ -74,6 +74,11 @@ def main():
 
     run_path = os.path.join(os.getcwd(), "scripts")
     run_path = os.path.join(run_path, client_without_tag)
+    # print el_images
+    print(f'run_path: {run_path}')
+    print(f'client_without_tag: {client_without_tag}')
+    # el_images: {'nethermind': 'nethermind/nethermind:1.30.3', 'geth': 'ethereum/client-go:v1.14.12', 'reth': 'ghcr.io/paradigmxyz/reth:v1.1.5', 'erigon': 'erigontech/erigon:v3.0.0-alpha6', 'besu': 'hyperledger/besu:24.12.2'}
+    print(f'el_images: {el_images}')
 
     set_image(client_without_tag, el_images, run_path)
 
