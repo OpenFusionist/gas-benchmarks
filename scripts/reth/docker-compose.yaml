@@ -1,4 +1,3 @@
-version: "3.9"
 services:
   execution-sync:
     container_name: gas-execution-client-sync
