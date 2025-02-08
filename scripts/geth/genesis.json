@@ -17,7 +17,19 @@
     "shanghaiTime": 0,
     "cancunTime": 0,
     "depositContractAddress": "0x4242424242424242424242424242424242424242",
-    "pragueTime": 1717392020
+    "pragueTime": 1717392020,
+    "blobSchedule": {
+      "cancun": {
+        "target": 3,
+        "max": 6,
+        "baseFeeUpdateFraction": 3338477
+      },
+      "prague": {
+        "target": 6,
+        "max": 9,
+        "baseFeeUpdateFraction": 5007716
+      }
+    }
   },
   "alloc": {
     "0x0000000000000000000000000000000000000000": {
