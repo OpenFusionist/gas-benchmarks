@@ -80,7 +80,7 @@ mkdir -p "$output_dir" || error_exit "Failed to create output directory"
 
 # Install dependencies
 echo "=== Installing Dependencies ==="
-pip install -r requirements.txt || error_exit "Failed to install Python dependencies"
+pip install  -q -r requirements.txt || error_exit "Failed to install Python dependencies"
 make prepare_tools || error_exit "Failed to prepare tools"
 
 # Run benchmarks
