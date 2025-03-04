@@ -2,7 +2,7 @@
 
 # Default inputs
 TEST_PATH="tests/"
-WARMUP_FILE="warmup/warmup-1000bl-16wi-24tx.txt"
+WARMUP_FILE="warmup/warmup-100bl-16wi-32tx.txt"
 CLIENTS="nethermind,geth,reth"
 RUNS=8
 IMAGES="default"
