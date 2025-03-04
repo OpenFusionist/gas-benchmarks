@@ -30,7 +30,7 @@ cleanup_client() {
 
 # Default configuration
 readonly DEFAULT_TEST_PATH="tests/"
-readonly DEFAULT_WARMUP_FILE="warmup/warmup-1000bl-16wi-24tx.txt"
+readonly DEFAULT_WARMUP_FILE="warmup/warmup-100bl-16wi-32tx.txt"
 readonly DEFAULT_CLIENTS="nethermind,geth,reth"
 readonly DEFAULT_RUNS=8
 readonly DEFAULT_IMAGES="default"
