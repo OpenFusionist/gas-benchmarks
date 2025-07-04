@@ -40,7 +40,7 @@ services:
     - --rpc-http-cors-origins=*
     - --host-allowlist=*
     - --bonsai-limit-trie-logs-enabled=false
-    - --Xbonsai-parallel-tx-processing-enabled=true
+    - --bonsai-parallel-tx-processing-enabled=true
     - --Xplugin-rocksdb-high-spec-enabled=true
     logging:
       driver: json-file
