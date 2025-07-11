@@ -21,7 +21,7 @@ def set_image(client, el_images, run_path):
         specifics = "CHAINSPEC_PATH=/tmp/chainspec.json"
     elif client == "besu":
         specifics = "CHAINSPEC_PATH=/tmp/besu.json"
-        specifics += "\nEC_ENABLED_MODULES=ETH,NET,CLIQUE,DEBUG,MINER,NET,PERM,ADMIN,EEA,TXPOOL,PRIV,WEB3\n"
+        specifics += "\nEC_ENABLED_MODULES=ETH,NET,CLIQUE,DEBUG,MINER,NET,PERM,ADMIN,TXPOOL,WEB3\n"
     else:
         specifics = "GENESIS_PATH=/tmp/genesis.json"
     env = f"EC_IMAGE_VERSION={el_images[client]}\n" \
