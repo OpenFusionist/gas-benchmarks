@@ -78,7 +78,7 @@ for run in $(seq 1 $RUNS); do
 done
 
 # Get metrics from results
-CLIENTS=nethermind,geth,reth,erigon,besu
+CLIENTS=nethermind,geth,reth,erigon,besu,ethrex
 python3 report_tables.py --resultsPath "$OUTPUT_DIR" --clients "$CLIENTS" --testsPath "$TEST_PATH" --runs $RUNS
 python3 report_html.py --resultsPath "$OUTPUT_DIR" --clients "$CLIENTS" --testsPath "$TEST_PATH" --runs $RUNS
 python3 report_json.py --resultsPath "$OUTPUT_DIR" --clients "$CLIENTS" --testsPath "$TEST_PATH" --runs $RUNS

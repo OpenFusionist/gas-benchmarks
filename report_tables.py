@@ -67,7 +67,7 @@ def main():
     parser.add_argument('--runs', type=int, help='Number of runs the program will process', default='10')
     parser.add_argument('--images', type=str, help='Image values per each client',
                         default='{ "nethermind": "default", "besu": "default", "geth": "default", "reth": "default" , '
-                                '"erigon": "default"}')
+                                '"erigon": "default", "ethrex": "default"}')
 
     # Parse command-line arguments
     args = parser.parse_args()
