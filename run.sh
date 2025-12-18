@@ -124,7 +124,7 @@ done
 
 # Generate reports
 echo "=== Generating Reports ==="
-readonly REPORT_CLIENTS="nethermind,geth,reth,erigon,besu"
+readonly REPORT_CLIENTS="nethermind,geth,reth,erigon,besu,ethrex"
 readonly REPORT_TYPES=("tables" "html" "json")
 
 for report_type in "${REPORT_TYPES[@]}"; do
